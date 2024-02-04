@@ -1,7 +1,7 @@
 console.log('Let\'s write JavaScript');
 let currentsong=new Audio();
 async function getsongs() {
-    let a = await fetch("http://127.0.0.1:3002/songs/")
+    let a = await fetch("http://127.0.0.1:3004/clone_of-spotify-main/songs/")
     let response = await a.text();
     console.log(response)
     let div = document.createElement("div")
